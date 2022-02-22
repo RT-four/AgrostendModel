@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="preconnect" href="https://yastatic.net">
+  <title>Агростенд</title>
+  <link rel="preconnect" href="https://www.google-analytics.com">
+  <meta charset="utf-8">
+  <meta name="format-detection" content="telephone=no">
+  <meta http-equiv="cleartype" content="on">
+  <meta name="yandex-verification" content="499bdc75d3636c55">
+  <meta name="google-site-verification" content="7iEzRRMJ2_0p66pVS7wTYYvhZZSFBdzL5FVml4IKUS0">
+  <meta data-react-helmet="true" name="viewport" content="width=device-width">
+  <meta data-react-helmet="true" property="og:image" content="https://m.avito.ru/icons/open-graph-default.svg">
+  <meta data-react-helmet="true" property="og:image:width" content="322">
+  <meta data-react-helmet="true" property="og:image:height" content="112">
+  <meta data-react-helmet="true" property="og:type" content="website">
+  <meta data-react-helmet="true" property="og:site_name" content="Авито">
+  <meta data-react-helmet="true" property="og:locale" content="ru_RU">
+  <meta data-react-helmet="true" property="fb:app_id" content="472292516308756">
+  <meta data-react-helmet="true" name="description" content="На&nbsp;Авито вы&nbsp;можете недорого купить или выгодно продать авто с&nbsp;пробегом или новую машину, квартиру и&nbsp;другую недвижимость, а&nbsp;также новую или б/у одежду, мебель">
+  <meta data-react-helmet="true" property="og:description" content="На&nbsp;Авито вы&nbsp;можете недорого купить или выгодно продать авто с&nbsp;пробегом или новую машину, квартиру и&nbsp;другую недвижимость, а&nbsp;также новую или б/у одежду, мебель">
+
+  <link rel="stylesheet" href="https://www.avito.ru/dstatic/css/legacy/reset.css" type="text/css">
+  <link data-chunk="main" rel="stylesheet" href="https://www.avito.ru/dstatic/build/client/avito-app-messenger.316495f493f7e9803e7a.css">
+  <link data-chunk="main" rel="stylesheet" href="https://www.avito.ru/dstatic/build/client/desktop-error-boundary.b856db7cbb5d612e1b52.css">
+  <link data-chunk="main" rel="stylesheet" href="https://www.avito.ru/dstatic/build/client/desktop-logo.1a22b65e8976ef73982a.css">
+  <link data-chunk="location" rel="stylesheet" href="https://www.avito.ru/dstatic/build/client/avito-ui.addcf85bfa9f5ae0094a.css">
+  <link data-chunk="location" rel="stylesheet" href="https://www.avito.ru/dstatic/build/client/desktop-page.0dedf1781dbe8b634277.css">
+  <link data-chunk="location" rel="stylesheet" href="https://www.avito.ru/dstatic/build/client/desktop-header.e5f851fa948ef37f6fd0.css">
+  <link data-chunk="location" rel="stylesheet" href="https://www.avito.ru/dstatic/build/client/desktop-mini-messenger.c7e49e103e1ce8f48e3b.css">
+  <link data-chunk="location" rel="stylesheet" href="https://www.avito.ru/dstatic/build/client/desktop-simple-page.dd1151a186d71d1ca00b.css">
+  <link data-chunk="location" rel="stylesheet" href="https://www.avito.ru/dstatic/build/client/desktop-footer.c5b033e8fa0cb7d70307.css">
+  <link data-chunk="location" rel="stylesheet" href="https://www.avito.ru/dstatic/build/client/desktop-not-found-page.c394c457faee947b72ca.css">
+  <link data-chunk="location" rel="stylesheet" href="https://www.avito.ru/dstatic/build/client/location.35dd37db8c4cbdb5c56d.css">
+  <link data-chunk="avito-bx-single-page-src-index-main" rel="stylesheet" href="https://www.avito.ru/dstatic/build/client/avito-bx-single-page-src-index-main.8fd24581ecb81426bae8.css">
+
+  <link data-chunk="main" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/runtime.d003c0d249e5ad1a4cd3.js">
+  <link data-chunk="main" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/lodash.fe24bc9ed33a931e12da.js">
+  <link data-chunk="main" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/avito-core.ea8006cde2061e642e03.js">
+  <link data-chunk="main" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/babel.773393406bbeb78f4025.js">
+  <link data-chunk="main" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/classnames.d262a879ac2ee91112e5.js">
+  <link data-chunk="main" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/core-js.566db019e56ed3a69d5a.js">
+  <link data-chunk="main" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/sentry.9711a58505ea3e3de5d6.js">
+  <link data-chunk="main" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/axios.8f509550054f1650925c.js">
+  <link data-chunk="main" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/react.a104c61e0d25426188bd.js">
+  <link data-chunk="main" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/react-dom.5ab7767d1435c56b3f45.js">
+  <link data-chunk="main" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/react-router.4c4175a265662bfdafeb.js">
+  <link data-chunk="main" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/react-router-dom.266520b78ae321681347.js">
+  <link data-chunk="main" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/react-helmet.a0b76d4a6832d090fa18.js">
+  <link data-chunk="main" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/avito-app-messenger.602784ceb849693ab0f2.js">
+  <link data-chunk="main" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/desktop-error-boundary.f137b504c216eea85841.js">
+  <link data-chunk="main" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/desktop-logo.f75b0a027d908a61b2e7.js">
+  <link data-chunk="main" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/main.dcfbb82e2e0b3352a881.js">
+  <link data-chunk="location" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/react-redux.62c8245b78cb6b1a5723.js">
+  <link data-chunk="location" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/redux.6b73eec36eb8ae0209ed.js">
+  <link data-chunk="location" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/avito-ui.d75e77ee801bbeeb2da0.js">
+  <link data-chunk="location" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/desktop-page.30dea065fa7942824ede.js">
+  <link data-chunk="location" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/desktop-auth.f58a34f7911c02b282f7.js">
+  <link data-chunk="location" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/desktop-header.bc24bba6c4e5e79ce423.js">
+  <link data-chunk="location" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/desktop-mini-messenger.72464849365fb1287364.js">
+  <link data-chunk="location" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/desktop-simple-page.d03fa5bd48b68c567b14.js">
+  <link data-chunk="location" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/desktop-footer.7a262d702fc5ffe63971.js">
+  <link data-chunk="location" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/desktop-not-found-page.0a85c8dc9be3006bc31c.js">
+  <link data-chunk="location" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/location.e9a87909869fefeb52c1.js">
+  <link data-chunk="avito-bx-single-page-src-index-main" rel="preload" as="script" href="https://www.avito.ru/dstatic/build/client/avito-bx-single-page-src-index-main.1bddafda01d1f2131b40.js">
+  <link data-react-helmet="true" rel="canonical" href="https://www.avito.ru/">
+  <link data-react-helmet="true" rel="alternate" media="only screen and (max-width: 640px)" href="https://m.avito.ru/">
+  <link data-react-helmet="true" rel="alternate" href="android-app://com.avito.android/ru.avito/1/items?locationId=653240">
+  <link data-react-helmet="true" rel="alternate" href="ios-app://417281773/ru.avito/1/items?locationId=653240">
+  <link data-react-helmet="true" rel="dns-prefetch" href="//yandex.ru/">
+  <link data-react-helmet="true" nonce="iYbR1Kuz2XPH0J+x1ZXlNw==" rel="preload" href="//yandex.ru/ads/system/context.js" as="script">
+  <script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js" nonce="iYbR1Kuz2XPH0J+x1ZXlNw=="></script>
+  <script type="text/javascript" async="" src="https://www.googleadservices.com/pagead/conversion_async.js" nonce="iYbR1Kuz2XPH0J+x1ZXlNw=="></script>
+  <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-9E363E7BES&amp;l=dataLayer&amp;cx=c" nonce="iYbR1Kuz2XPH0J+x1ZXlNw=="></script>
+  <script async="" src="https://mc.yandex.ru/metrika/tag.js"></script>
+  <script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-KP9Q9H"></script>
+  <script>
+    if ('PerformanceLongTaskTiming' in window) {
+      var globalStats = window.__statsLongTasks = {
+        tasks: []
+      };
+      globalStats.observer = new PerformanceObserver(function (list) {
+        globalStats.tasks = globalStats.tasks.concat(list.getEntries());
+      });
+      globalStats.observer.observe({
+        entryTypes: ['longtask']
+      });
+    }
+
+    window.avito = {
+      pageId: 'single-page',
+      ads: {},
+      platform: 'desktop',
+      statsHost: 'https://www.avito.ru'
+    };
+
+    window.dataLayer = window.dataLayer || [];
+    dataLayer.push({
+      visitorId: '2k4awxg5.1enseb.gf3wklv8xs'
+    });
+
+    window.onpageshow = function (event) {
+      if (event.persisted) {
+        window.location.reload()
+      }
+    };
+  </script>
+  <script src="https://www.avito.ru/dstatic/build/client/fingerprint.57276f3bb389c56ab07f.js" async=""></script>
+  <script>
+    window.addEventListener("error", function (e) {
+      var eleArray = ["IMG", "SCRIPT", "LINK"];
+
+      var ele = e.target;
+      var tagName = ele.tagName;
+      if (~eleArray.indexOf(tagName)) {
+        var chunk = ele.dataset.chunk;
+        var metric = 'frontend.new-desktop.env.' + 'prod' + '.degradation.' + tagName;
+        metric += chunk ? '.' + chunk : '';
+        var count = {};
+        var request = {
+          p: ''
+        }
+        count[metric] = 1;
+        request.c = count;
+        try {
+          const imageNode = new Image();
+          imageNode.src = 'https://www.avito.ru/stat/radar?data=' + JSON.stringify(request);
+        } catch (e) {}
+      }
+    }, true);
+  </script>
+  <script src="https://www.avito.ru/s/a/j/dfp/px.js?ch=1"></script>
+  <script src="https://www.avito.ru/s/a/j/dfp/px.js?ch=2"></script>
+  <script src="https://www.avito.ru/dstatic/j/dfp/px.js"></script><!-- Google Code for Remarketing tag -->
+  <!-- Remarketing tags may not be associated with personally identifiable information or placed on pages related to sensitive categories. For instructions on adding this tag and more information on the above requirements, read the setup guide: google.com/ads/remarketingsetup -->
+  <script>
+    var google_conversion_id = 987009030;
+    var google_conversion_label = 'f8JaCLLjvAQQhqDS1gM';
+    var google_custom_params = window.google_tag_params;
+    var google_remarketing_only = true;
+  </script>
+  <script src="//www.googleadservices.com/pagead/conversion.js"></script><noscript>
+    <div style="display:inline"><img height="1" width="1" style="border-style:none;" alt="" src="//googleads.g.doubleclick.net/pagead/viewthroughconversion/987009030/?value=0&amp;amp;label=f8JaCLLjvAQQhqDS1gM&amp;amp;guid=ON&amp;amp;script=0"></div>
+  </noscript>
+  <script>
+    var gtmId = 'GTM-KP9Q9H';
+    (function (w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({
+        'gtm.start': new Date().getTime(),
+        event: 'gtm.js'
+      });
+      var f = d.getElementsByTagName(s)[0];
+      var j = d.createElement(s);
+      var dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+      // eslint-disable-next-line no-undef
+    })(window, document, 'script', 'dataLayer', gtmId);
+  </script>
+  <script>
+    var img = new Image();
+    img.src = '//www.tns-counter.ru/V13a***R>' + document.referrer.replace(/\*/g, '%2a') + '*avito_ru/ru/CP1251/tmsec=avito_main/' + Math.round(Math.random() * 1000000000);
+  </script><noscript><img src="//www.tns-counter.ru/V13a****avito_ru/ru/CP1251/tmsec=avito_main/" alt="" height="1" width="1"></noscript>
+  <script>
+    (function (m, e, t, r, i, k, a) {
+      m[i] = m[i] || function () {
+        (m[i].a = m[i].a || []).push(arguments);
+      };
+      m[i].l = 1 * new Date();
+      k = e.createElement(t);
+      a = e.getElementsByTagName(t)[0];
+      k.async = 1;
+      k.src = r;
+      a.parentNode.insertBefore(k, a);
+    })(window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+  </script>
+  <style data-emotion="desktop " data-s=""></style>
+  <script src="https://www.avito.ru/remote-modules/entrypoint/service-avito-desktop-site/avito__component-auth/remoteEntry.js" type="text/javascript" async=""></script>
+  <script nonce="iYbR1Kuz2XPH0J+x1ZXlNw==" src="//yandex.ru/ads/system/context.js" async="true" data-react-helmet="true"></script>
+  <link rel="stylesheet" type="text/css" href="https://www.avito.ru/remote-modules/avito__component-auth/ad9536d5/532.d4400546aaf78b293f85.css">
+  <link rel="stylesheet" type="text/css" href="https://www.avito.ru/remote-modules/avito__component-auth/ad9536d5/319.dc337a36c3a7a6da61a3.css">
+  <meta http-equiv="origin-trial" content="A3v9QjmVUCOO7YqFMKHP/NKbn6kY1G1pa2S1TfeXJZUD/tysMONTy6lV0Jkou3rrCjSKRGbqTrgTaZkm1XJ7pQUAAACKeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ21hbmFnZXIuY29tOjQ0MyIsImZlYXR1cmUiOiJDb252ZXJzaW9uTWVhc3VyZW1lbnQiLCJleHBpcnkiOjE2NDMxNTUxOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+  <link rel="stylesheet" type="text/css" href="https://www.avito.ru/dstatic/build/client/8363.521e99c5eebcc0c22a80.css">
+  <script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/731887262/?random=1645471061357&amp;cv=9&amp;fst=1645471061357&amp;num=1&amp;label=321PCOW_o84CEJ7t_twC&amp;bg=ffffff&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=24&amp;u_his=10&amp;u_tz=180&amp;u_java=false&amp;u_nplug=5&amp;u_nmime=2&amp;gtm=2wg2g0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=https%3A%2F%2Fwww.avito.ru%2F&amp;ref=https%3A%2F%2Fwww.avito.ru%2Fprofile%2Fmessenger%2Fchannel%2Fu2i-DesEm7V8rcBXhE8U5iTxaA&amp;tiba=%D0%90%D0%B2%D0%B8%D1%82%D0%BE%3A%20%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%2C%20%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82%2C%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%2C%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8%2C&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4" nonce="iYbR1Kuz2XPH0J+x1ZXlNw=="></script>
+  <script src="https://googleads.g.doubleclick.net/pagead/viewthroughconversion/858060344/?random=1645471061359&amp;cv=9&amp;fst=1645471061359&amp;num=1&amp;label=f8JaCLLjvAQQhqDS1gM&amp;bg=ffffff&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;u_h=1080&amp;u_w=1920&amp;u_ah=1040&amp;u_aw=1920&amp;u_cd=24&amp;u_his=10&amp;u_tz=180&amp;u_java=false&amp;u_nplug=5&amp;u_nmime=2&amp;gtm=2wg2g0&amp;sendb=1&amp;ig=1&amp;data=dynx_pagetype%3Dundefined&amp;frm=0&amp;url=https%3A%2F%2Fwww.avito.ru%2F&amp;ref=https%3A%2F%2Fwww.avito.ru%2Fprofile%2Fmessenger%2Fchannel%2Fu2i-DesEm7V8rcBXhE8U5iTxaA&amp;tiba=%D0%90%D0%B2%D0%B8%D1%82%D0%BE%3A%20%D0%BD%D0%B5%D0%B4%D0%B2%D0%B8%D0%B6%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%2C%20%D1%82%D1%80%D0%B0%D0%BD%D1%81%D0%BF%D0%BE%D1%80%D1%82%2C%20%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0%2C%20%D1%83%D1%81%D0%BB%D1%83%D0%B3%D0%B8%2C&amp;hn=www.googleadservices.com&amp;async=1&amp;rfmt=3&amp;fmt=4" nonce="iYbR1Kuz2XPH0J+x1ZXlNw=="></script>
+  <script src="https://static.securedtouch.com/sdk/pongV2.js?body=eyJwaW5nVmVyc2lvbiI6IjQuMS4xdyIsImFwcElkIjoiYXZpdG8iLCJhcHBTZXNzaW9uSWQiOiIyazRhd3hnNS4xZW5zZWIuZ2Yzd2tsdjh4cyIsInBsYXRmb3JtIjoiV2luMzIifQ%3D%3D"></script>
+  <script src="//static.securedtouch.com/sdk/securedtouch-sdk-4.1.1w.js?appId=avito&amp;sessionId=2k4awxg5.1enseb.gf3wklv8xs" id="stPingId" data-visitor="2k4awxg5.1enseb.gf3wklv8xs"></script>
+
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Агросервер </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+
+<body>
+  <div class="first-part">
+    <div class="container first-container">
+      <div class="row">
+        <div class="col">
+          <a href="../index.html"><img src="../img/logo.png" alt=""></a>
+        </div>
+        <div class="col">
+
+        </div>
+        <div class="col">
+
+        </div>
+        <div class="col name-cell">
+          <img src="../img/Name.png">
+        </div>
+      </div>
+      <div class="row cab">
+        <div class="col-3"> <img class="strings" src="../img/strings.jpg" alt=""></div>
+        <div class="col"> <img class="headings" src="../img/headings.jpg" alt=""></div>
+      </div>
+      <div class="row">
+        <div class="col-3"> </div>
+        <div class="col"> <img style="margin-top:20px;" class="headings" src="../img/headings2.jpg" alt=""></div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+</body>
+
+</html>
